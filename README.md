@@ -4,6 +4,8 @@ Clean-room music/audio workflow utilities for synthetic track metadata, release 
 
 This repo is designed as public proof-of-work for an AI workflow builder and creative automation operator profile. It shows how music release operations can be turned into tested, auditable, human-reviewed workflow components without exposing private assets.
 
+![Creative Audio Workflow Lab flow](docs/assets/creative-audio-workflow.svg)
+
 ## Safety boundary
 
 This is a clean-room demo using synthetic fixtures. It does **not** include credentials, private client data, production release strategy, stems, masters, paid loops, copyrighted audio files, unreleased assets, or live execution paths.
