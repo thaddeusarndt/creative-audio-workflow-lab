@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Midnight Sketch",
+    "artist": "Preballin Demo Artist",
+    "bpm": 92,
+    "key": "A minor",
+    "duration_seconds": 146,
+    "mood_tags": ["reflective", "late-night", "warm"],
+    "release_channels": ["streaming", "short-form", "newsletter"],
+    "assets": {"cover_art": true, "clean_mix": true, "instrumental": false},
+    "notes": "Synthetic demo metadata only; no real audio asset is included."
+  },
+  {
+    "title": "Sunset Bounce",
+    "artist": "Preballin Demo Artist",
+    "bpm": 118,
+    "key": "C major",
+    "duration_seconds": 181,
+    "mood_tags": ["bright", "driving", "dance"],
+    "release_channels": ["streaming", "social-clips"],
+    "assets": {"cover_art": false, "clean_mix": true, "instrumental": true},
+    "notes": "Synthetic demo metadata only; no real audio asset is included."
+  }
+]
