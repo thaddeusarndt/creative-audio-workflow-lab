@@ -4,13 +4,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from .report_builder import render_track_report
 
 
 def slugify(value: str) -> str:
-    return "".join(ch.lower() if ch.isalnum() else "-" for ch in value).strip("-").replace("--", "-")
+    slug = "".join(ch.lower() if ch.isalnum() else "-" for ch in value)
+    return re.sub(r"-+", "-", slug).strip("-")
 
 
 def main() -> None:

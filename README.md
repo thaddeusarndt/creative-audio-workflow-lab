@@ -25,6 +25,20 @@ PYTHONPATH=src python -m audio_workflow_lab.demo \
   --output-dir reports/generated
 ```
 
+Run tests:
+
+```bash
+PYTHONPATH=src pytest -q
+```
+
+Example report excerpt:
+
+```text
+## Validation
+- `cover_art_missing`
+- `metadata_description_missing`
+```
+
 Generated reports include:
 
 - `reports/generated/midnight-sketch_report.md`

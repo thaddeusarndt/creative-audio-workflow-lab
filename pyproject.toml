@@ -2,6 +2,9 @@
 name = "creative-audio-workflow-lab"
 version = "0.1.0"
 description = "Clean-room utilities for synthetic music release metadata, planning, and creative content repurposing."
+authors = [{name = "Thaddeus Arndt"}]
+readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.10"
 
 [tool.pytest.ini_options]
