@@ -61,3 +61,7 @@ reports/generated/        Sample generated reports
 This repo demonstrates practical AI-adjacent workflow design: structured inputs, validation, deterministic planning, prompt-safe repurposing, markdown reporting, tests, and explicit safety boundaries.
 
 It is intentionally small, readable, and auditable.
+
+---
+
+Part of the [Preballin](https://preballin.com) clean-room portfolio — patterns from production systems, rebuilt with synthetic data.
